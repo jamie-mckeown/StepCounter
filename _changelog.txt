@@ -1,0 +1,43 @@
+===========================
+September 15th 2021
+===========================
+
+-   Make minor updates to prepare project for release on GitHub.
+
+===========================
+March 14th 2021 - v0.0.3
+===========================
+
+-   Write method for producing a line graph displaying daily steps for the current month.
+-   Write method for producing a line graph displaying daily steps for the current year.
+-   Write method for producing a line graph displaying daily steps for the current week.
+-   Updated method for summary statistics to also produce the above plots.
+
+===========================
+February 3rd 2021 - v0.0.2
+===========================
+
+-   Write method for calculating the user's average steps for the last N days.
+-   Write method for calculating the user's average steps for the last 7 days.
+-   Write method for calculating the user's average steps for the last 28 days.
+-   Write (class) method for ensuring dates are correctly formatted for purpose.
+-   Write (class) method for retrieving the start- and end-dates of the week a given date belongs to.
+-   Write (class) method for retrieving the start- and end-dates of the month a given date belongs to.
+-   Write (class) method for retrieving the start- and end-dates of the year a given date belongs to.
+-   Write method for retrieving user's total steps for the current week.
+-   Write method for retrieving user's total steps for the current day.
+-   Write method for retrieving user's total steps for the current month.
+-   Write method for retrieving user's total steps for the current year.
+-   Write method for printing user's summary statistics (total steps) to the console.
+
+===========================
+February 2nd 2021 - v0.0.1
+===========================
+
+-   Set up authorization and connection to Fitbit API.
+-   Create StepDiary class and set dunder init method to connect to Fitbit API.
+-   Create 4 read-only attributes for necessary components for Fitbit API connection
+-   Write method for retrieving user's lifetime steps.
+-   Write method for retrieving user's steps for the last N days.
+-   Write method for retrieving user's steps for the last 7 days.
+-   Write method for retrieving user's steps for the last 28 days.
