@@ -1,4 +1,10 @@
 ===========================
+September 28th 2021
+===========================
+
+-	Replace use of floor function with integer division where appropriate.
+
+===========================
 September 15th 2021
 ===========================
 

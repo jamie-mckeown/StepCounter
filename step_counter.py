@@ -1,7 +1,6 @@
 import requests 
 import datetime
 import os
-from math import floor
 from bokeh.plotting import figure 
 from bokeh.io import output, output_file, show
 
@@ -231,7 +230,7 @@ class StepDiary :
     #   Calculate the average steps (rounded down to the nearest integer) for the last N days
     def lastNdays_avg (self, N:int) :
         '''Calculate the user's average daily steps (rounded DOWN to nearest integer) for the last N days.'''
-        return floor(self.lastNdays(N) / N)
+        return self.lastNdays(N) // N
 
     #   Calculate the averages steps (rounded down to the nearest integer) for the last 7 days
     def last7days_avg (self) :
